@@ -5,6 +5,7 @@ Repo for "BME203 Intro to Bioinfo" @ UNIST
 * Try Git (simulation site) - https://try.github.io/
 * Git Simple Guide (multiple languages) - https://rogerdudler.github.io/git-guide/
 * Visual Git Guide (multiple languages) - https://marklodato.github.io/visual-git-guide/index-en.html
+* https://github.com/GSoft-SharePoint/Dynamite/wiki/Getting-started-with-SourceTree,-Git-and-git-flow
 
 ## Useful sites for programming practice
 * http://rosalind.info/problems/locations/
