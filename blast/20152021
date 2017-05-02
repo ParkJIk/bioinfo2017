@@ -1,0 +1,26 @@
+pond_seq = open("GamakSeq.fa", "r")
+list_of_seq = open("GreenGene_135.79_otus_taxonomy.fa", "r")
+
+match=dict()
+
+for line in pond_seq:
+  if line.startswitch("#"):
+    a=1
+    continue
+  elif a==1:
+    list=line.split()
+    pond=list[0]
+    name=list[1]
+    match[name]=list[2]
+    a=0
+    
+for line in list_of_seq:
+  list2=line.split()
+  match[list[0]]=line
+
+for k in match:
+  print(pond, '\n', name)
+  
+pond_seq.close()
+list_of_seq.close()
+ 
